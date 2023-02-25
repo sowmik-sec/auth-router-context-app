@@ -5,10 +5,18 @@ const Header = () => {
   return (
     <div>
       <div className="navbar bg-primary text-primary-content">
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-        <Link to="/">Home</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
+        <Link to="/" className="btn btn-ghost normal-case text-xl">
+          Exploring auth
+        </Link>
+        <Link className="btn btn-ghost normal-case text-xl" to="/">
+          Home
+        </Link>
+        <Link className="btn btn-ghost normal-case text-xl" to="/login">
+          Login
+        </Link>
+        <Link className="btn btn-ghost normal-case text-xl" to="/register">
+          Register
+        </Link>
       </div>
     </div>
   );
